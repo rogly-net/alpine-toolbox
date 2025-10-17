@@ -21,8 +21,8 @@ A lightweight Docker container based on Alpine Linux with customizable user perm
 |----------------------|----------------------|------------------------------------|:------:|
 | `latest`             | `latest`             | Latest stable release              | ✅     |
 | `v{semver-tag}`      | `v1.2.3` `v1.0` `v1` | Major/Minor/Patch releases         | ✅     |
-| `nightly`            | `nightly`            | Latest nightly build               | ❌     |
-| `nightly-{YYYYMMDD}` | `nightly-20251016`   | Dated nightly build                | ❌     |
+| `nightly`            | `nightly`            | Latest nightly build               | ⚠️     |
+| `nightly-{YYYYMMDD}` | `nightly-20251016`   | Dated nightly build                | ⚠️     |
 | `{branch}`           | `main`               | Latest release from named branch   | ❌     |
 | `{branch}-{sha}`     | `main-0993e5bb`      | Specific branch commit version     | ❌     |
 | `pr-{number}`        | `pr-10`              | Build related to pull request      | ❌     |
